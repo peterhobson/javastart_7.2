@@ -23,8 +23,5 @@ public class Main {
         bubbleSort.sortArray(array4);
         bubbleSort.sortArray(array5);
 
-
-
-        
     }
 }
