@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -18,7 +20,9 @@ public class Main {
 
         BubbleSort bubbleSort = new BubbleSort();
         bubbleSort.sortArray(array1);
+        System.out.println(Arrays.toString(array2));
         bubbleSort.sortArray(array2);
+        System.out.println(Arrays.toString(array2));
         bubbleSort.sortArray(array3);
         bubbleSort.sortArray(array4);
         bubbleSort.sortArray(array5);
